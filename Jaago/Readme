@@ -5,6 +5,5 @@ Here is the brief description of what this folder contains:
  
 3) App Folder named Jaago
 
-4) Design Document
 
 For App to be runnable Ip Address should be changed in the app (wherever it is used) to the Ip of server who is running the database. 
