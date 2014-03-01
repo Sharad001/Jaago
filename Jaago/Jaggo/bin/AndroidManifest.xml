@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jaggo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/jaggo"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" android:windowSoftInputMode="stateHidden" >            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jaggo.CustomizedListView"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.jaggo.CreateEvent"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.jaggo.causepage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.jaggo.eventpage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.jaggo.comment"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.jaggo.create_event2"
+            android:label="@string/app_name" >
+        </activity>
+	<activity android:name="com.example.jaggo.CustomizedListViewEvent" 
+		android:label="@string/app_name">
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

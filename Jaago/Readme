@@ -1,0 +1,10 @@
+Here is the brief description of what this folder contains:
+1) PHP files required for the database access
+
+2) SQL Database dump files
+ 
+3) App compressed folder jaggo.rar
+
+4) Design Document
+
+For App to be runnable Ip Address should be changed in the app (wherever it is used) to the Ip of server who is running the database. 
